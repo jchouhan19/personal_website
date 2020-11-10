@@ -10,3 +10,64 @@ nav{
 .h1index {
      font-family: 'Montserrat', sans-serif;
     }
+
+
+@media only screen and (min-width: 600px) {
+    .courses{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    .db{
+        grid-row: 1;
+        grid-column: 1;
+     }
+    
+     .db_info{
+         grid-row: 1;
+         grid-column: 2;
+     }
+    
+     .db_date{
+         grid-row: 1;
+         grid-column: 1;
+         padding: 20px;
+     }
+    
+     .math{
+        grid-row: 2;
+        grid-column: 1;
+     }
+    
+     .math_info{
+         grid-row: 2;
+         grid-column: 2;
+     }
+    
+     .math_date{
+         grid-row: 2;
+         grid-column: 1;
+         padding: 20px;
+    }
+    
+    .web{
+        grid-row: 3;
+        grid-column: 1;
+     }
+    
+     .web_info{
+         grid-row: 3;
+         grid-column: 2;
+     }
+    
+     .web_date{
+         grid-row: 3;
+         grid-column: 1;
+         padding: 20px;
+    }
+    
+    hr{
+        grid-row: 1/2;
+    }
+    }
